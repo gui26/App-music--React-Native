@@ -2,15 +2,15 @@ import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { cart } from "../src/screens/cart/index";
-import { catalago } from "../src/screens/catalago/index";
+import { catalago, Home } from "../src/screens/Home/index";
 import { Cart2 } from "../src/screens/Cart2";
-
+import { Home } from "../src/screens/Home/index";
 
 const Stack= createNativeStackNavigator();
 function Routes() {
 return(
     <NavigationContainer>
-       <Stack.Navigator initialRouteName="catalago">
+       <Stack.Navigator initialRouteName="Home">
          
 
       
@@ -35,9 +35,9 @@ return(
 
       
        
-        <Stack.Screen name="catalago" component={catalago}
+        <Stack.Screen name="Home" component={Home}
             options={{
-              title: 'catalago',
+              title: 'Home',
               headerShown: false,
             }}/>
 

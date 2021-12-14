@@ -26,7 +26,7 @@ import { styles } from './styles';
 import { theme } from '../../../global/themes';
 import { useNavigation } from '@react-navigation/native';
 
-export function cart(){
+export function PG3(){
   const navigation = useNavigation()
 
  

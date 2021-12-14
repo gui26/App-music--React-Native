@@ -28,7 +28,7 @@ import { styles } from './styles';
 
 
 
-export function catalago(){
+export function Home(){
 
   const [sound, setSound] = React.useState();
 
@@ -60,17 +60,6 @@ const navigation = useNavigation();
 const [products, setProducts] = useState(results);
 const [visible, setVisible]= useState(false);
  
-  
-
-
-
-
-
-
-
-
-
-
 
 const [text, onChangeText] = React.useState("Search music");
 console.log(text)
@@ -78,8 +67,6 @@ console.log(text)
 const toCart = ()=>{
     navigation.navigate('cart')
 }
-
-
 
 
 
@@ -106,8 +93,7 @@ const toCart = ()=>{
 
 
               
-             
-
+  
             
               
                
@@ -154,7 +140,6 @@ const toCart = ()=>{
             </TouchableOpacity>
 
        )} />
-
 
 
 
@@ -307,9 +292,7 @@ const toCart = ()=>{
              
              
          
-     
-
-
+    
 
       
               </LinearGradient>
