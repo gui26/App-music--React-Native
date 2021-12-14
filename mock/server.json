@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "CosmicByte GS430",
+      "name2": "Infinty Headset",
+      "avaliation": "4.4",
+      "valor": 129,
+      "price": 120,
+      "lixeira": "Remover",
+      "amount": 1,
+      "image": ""
+    },
+    {
+      "id": 2,
+      "name": "CosmicByte GS437",
+      "name2": "Wireless Headset",
+      "avaliation": "4.4",
+      "valor": 140,
+      "price": 130,
+      "lixeira": "Remover",
+      "amount": 1,
+      "image": ""
+    }
+    
+  ],
+  "users": [
+    {
+      "id":1,
+      "name": "Guilherme",
+      "senha": 1234
+    }
+  ]
+}
